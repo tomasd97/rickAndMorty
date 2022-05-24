@@ -1,0 +1,24 @@
+.episodes-section-container{
+  height: calc(35vh - 80px);
+  padding: 20px;
+  .episodes-section{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+  }
+}
+
+.error-message{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid red;
+  border-radius: 5px;
+  width: 100%;
+  .character-non-selected-text{
+    font-weight: bold;
+    font-size: 2em;
+    color: red;
+    font-family: Arial;
+  }
+}

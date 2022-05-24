@@ -1,0 +1,9 @@
+@import './src/styles/styles';
+
+.header-container{
+  height: 80px;
+  background: $secondary-35;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
